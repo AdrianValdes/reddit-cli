@@ -1,2 +1,6 @@
 #! /usr/bin/env node
-console.log();
+import open from 'open';
+import fetch from 'node-fetch';
+import yargs from 'yargs';
+
+console.log('hello from the reddit cli');
