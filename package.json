@@ -8,18 +8,12 @@
   },
   "keywords": [],
   "bin": {
-    "reddit": "./reddit.ts"
+    "reddit": "./reddit.js"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/node-fetch": "^2.5.11",
-    "@types/yargs": "^17.0.2",
-    "@typescript-eslint/eslint-plugin": "^4.28.2",
-    "@typescript-eslint/parser": "^4.28.2",
-    "eslint": "^7.30.0",
-    "eslint-config-google": "^0.14.0"
-  },
+  "devDependencies": {},
   "dependencies": {
     "node-fetch": "^2.6.1",
     "open": "^8.2.1",
