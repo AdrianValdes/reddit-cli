@@ -7,6 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
+  "bin": {
+    "reddit": "./reddit.ts"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "eslint-config-google": "^0.14.0"
+  }
 }
